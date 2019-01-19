@@ -1,0 +1,118 @@
+body{
+    background-image: url(../images/IGNORAMUS_ART.jpg);
+	background-color: rgba(0, 0, 0, 0.9);
+	margin: 0;
+	color: white;
+    font-family: 'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace;
+}
+.showcase::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    transition: all 1000ms;
+}
+
+.showcase:hover:after{
+    content: 'IGNORAMUS by Kecs Dbeats';
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+
+}
+.itunes:hover{
+    
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.apple:hover{
+    
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.spotify:hover{
+    
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.trio{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    top: 5%;
+    transition: all 1000ms;
+}
+
+.itunes{
+    padding-left: 20px;
+    border: 1px #0332E3 solid;
+    height: 700px;
+    float: left;
+    width: 31.33%;
+    
+    
+}
+.itunes h1{
+    text-align: center;
+    text-shadow: 3px 3px #9B82B0;
+    transition: all 1000ms;
+}
+
+.apple{
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px #0332E3 solid;
+    height: 680px;
+    float: right;
+    width: 31.33%;
+    
+    
+    
+}
+
+.tex{
+    color: aliceblue;
+    text-align: center;
+}
+
+.fabu{
+ 
+}
+.apple h1{
+    text-align: center;
+    text-shadow: 3px 3px #F26EA7;
+    margin-bottom: 20px;
+    
+}
+
+.spotify{
+    padding-left: 20px;
+    border: 1px #0332E3 solid;
+    height: 700px;
+    float: right;
+    width: 31.33%;
+
+}
+.spotify h1{
+    text-align: center;
+    text-shadow: 3px 3px #22C95C;
+}
+.container{
+    max-width: 90%;
+    padding-top: 20px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem, 1rem;
+
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+}
