@@ -1,5 +1,6 @@
 body{
     background-image: url(../images/IGNORAMUS_ART.jpg);
+    background-repeat: round;
 	background-color: rgba(0, 0, 0, 0.9);
 	margin: 0;
 	color: white;
