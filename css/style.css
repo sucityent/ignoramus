@@ -74,6 +74,9 @@ body{
     
     
 }
+.case{
+    padding-top: 20px;
+}
 
 .tex{
     color: aliceblue;
@@ -81,6 +84,10 @@ body{
 }
 
 .fabu{
+    height: 200px; 
+    width: 300px;
+
+    max-width: 95%;
  
 }
 .apple h1{
