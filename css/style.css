@@ -161,7 +161,29 @@ body{
 
 
 
+.top{
+    
+   position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    color: chartreuse;
+    
+ 
+    
+    
+}
 
+.rowCustom{
+        
+      display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 100%;
+}
 
 
 
