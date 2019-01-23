@@ -89,6 +89,8 @@ body{
     width: 300px;
 
     max-width: 95%;
+      border: none;
+  background: none;
  
 }
 .apple h1{
@@ -124,3 +126,90 @@ body{
     grid-auto-flow: column;
     grid-template-columns: repeat(4, 1fr);
 }
+
+
+
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 13%;
+/*  -webkit-transform: translateY(-50%);*/
+/*  -ms-transform: translateY(-50%);*/
+  transform: translateY(-40%);
+    
+    
+/*      position: relative;*/
+/*  display: -ms-flexbox;*/
+/*  display: flex;*/
+/*  -ms-flex-direction: column;*/
+/*  flex-direction: column;*/
+/*  min-width: 0;*/
+/*  word-wrap: break-word;*/
+  background-color: #311761;
+    color:darkorange;
+/*    padding-top: 20px;*/
+/*  background-clip: border-box;*/
+/*  border: 1px solid rgba(0, 0, 0, 0.125);*/
+  border-radius: 0.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+
+
+
